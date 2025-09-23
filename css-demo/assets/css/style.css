@@ -1,0 +1,14 @@
+/* CSS DEMO WORKSHEET */
+
+/*  ---------------Box Sizing-----------------  */
+html {
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+/*----------------Global Styles ------------------*/
+
