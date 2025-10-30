@@ -32,7 +32,49 @@
       gap: 20px;
       max-width: 80vw;
       margin: 20px auto;
+      grid-template-columns: 1fr 3fr;
     }
+
+    aside{
+      grid-column-start: 2;
+      grid-column-end: 1;
+      grid-row-start: 2;
+      grid-row-end: 4;
+    }
+
+    header.primary{
+      grid-column-start: 1;
+      grid-column-end: 4;
+      grid-row-start: 1;
+      grid-row-end: 2;
+    }
+
+    #content{
+      grid-column-start:2;
+      grid-column-end:4;
+      grid-row-start:2;
+      grid-row-end:3;
+    }
+
+    #blog{
+      grid-column-start:2;
+      grid-column-end:4;
+      grid-row-start:3;
+      grid-row-end:3;
+      
+    }
+
+    footer.primary{
+      grid-column-start:1;
+      grid-column-end: 4;
+      grid-row-start: 4;
+      grid-row-end: 4;
+    }
+
+
+
+
+
   </style>
 
 </head>
