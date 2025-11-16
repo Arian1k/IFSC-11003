@@ -85,6 +85,21 @@ font-size: 1.4rem;
 letter-spacing:.2px;
 }
 
+header.primary a{
+  color:#ffffff;
+  padding:7.5px 7.5px;
+  border-radius:20px;
+  text-decoration:none;
+  background-color:#ffffff;
+  background-color:rgba(0,0,300,.4);
+  font-size:2rem;
+  transition:.4s;
+}
+
+header.primary a:hover{
+  background-color:rgba(5,10,100,.8);
+}
+
 header.primary nav ul{
   padding:5px;
   display:flex;
@@ -103,7 +118,7 @@ header.primary nav ul a{
   border-radius:20px;
   text-decoration:none;
   background-color:#ffffff;
-  background-color:rgba(0,0,100,.4);
+  background-color:rgba(0,0,300,.4);
   font-size:1.5rem;
   transition:.4s;
 }
