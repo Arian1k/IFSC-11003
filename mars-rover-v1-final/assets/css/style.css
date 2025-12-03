@@ -119,7 +119,7 @@ header.primary nav ul a{
   text-decoration:none;
   background-color:#ffffff;
   background-color:rgba(0,0,300,.4);
-  font-size:1.5rem;
+  font-size:1.8rem;
   transition:.4s;
 }
 
@@ -157,17 +157,17 @@ header.primary nav a:hover{
 #content .post{
   box-shadow: 0 4px 8px rgba(0,0,0,.7);
   padding:20px;
-  font-size:.7rem;
+  font-size:1rem;
  border: 1px solid #ffffff; 
 }
 
-#content .post figure{
+#content .post figcaption{
   margin:20;
 }
 
 #content time.post-date, #content figcaption{
   text-transform:uppercase;
-  font-size:.6rem;
+  font-size:.8rem;
 }
 
 #content a{
@@ -219,7 +219,7 @@ background-color: rgba(0, 0, 0, 0.05);
 }
 
 #table tr:hover{
-   background-color: rgba(0, 0, 0, 0.3);
+   background-color: rgba(5, 10, 100, 0.8);
 }
 
 #table td:nth-child(1n+2){
