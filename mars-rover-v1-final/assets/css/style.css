@@ -39,6 +39,15 @@ html {
   height: auto;
 }
 
+.img-top{
+  display:block;
+  margin: 20px auto;
+  border: 2px double #cccccc;
+  padding: 0;
+  width: 85%;
+  height: 80%;
+}
+
 /* --------------Responsive Images ----------------*/
 img{
   max-width:100%;
@@ -136,6 +145,7 @@ header.primary nav a:hover{
 #intro{
   border: 1px solid white;
   padding: 10px;
+
 }
 
 #content{
